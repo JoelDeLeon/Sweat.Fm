@@ -1,0 +1,133 @@
+
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+	[class*="fontawesome-"]:before {
+	  font-family: 'FontAwesome', sans-serif;
+	}
+
+
+
+
+.radioco-nowPlaying {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 4vh;
+    color: black;
+   position:fixed;
+    right:10px;
+    bottom:30px;
+    z-index: 2;
+}
+
+/* BUTTON */
+
+	.radioco-playButton-playing:before{
+		font-family: 'FontAwesome', sans-serif;
+	  content: "\f04b";
+	}
+
+	.radioco-playButton-paused:before{
+		font-family: 'FontAwesome', sans-serif;
+	  content:"\f04c";
+	}
+
+.radioco-playButton{
+    
+    font-size:20vw;
+    position:fixed;
+    top:0px;
+    left:2vw;
+    z-index: 1;
+}
+
+	.radioco-playButton:active{
+	  color:white;
+	}
+
+.radioco-playButton-playing{
+    position: relative;
+    font-family: "controls";
+    
+    float: left;
+
+}
+
+.radioco-playButton-paused{
+    position: relative;
+    font-family: "controls";
+   
+    float: left;
+}
+
+
+/* IMAGE */
+.radioco-image{
+    position: relative;
+    float: right;
+    width: 100%;
+
+}
+
+.radioco-volume {
+    width: 100%;
+    margin-top: 5%;
+    height: 2vw;
+}
+
+.radioco-volume::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+.radioco-volume::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+}
+
+
+#controller .radioco-image {
+    display: none;
+}
+
+#musicimage .radioco-playButton-playing {
+    display: none;
+}
+
+#musicimage .radioco-nowPlaying {
+    display: none;
+}
+
+#musicimage .radioco-playButton-paused {
+    display: none;
+}
+
+#musicimage .radioco-volume{
+    display: none;
+}
+
+/* ******* code ******* */
+#container {
+    width: 100%;
+    height: 70vw;
+    overflow: hidden;
+    
+}
+#controller {
+    float: left;
+    width: 30%;
+    height: 70vw; 
+    padding: 2%;
+}
+
+#musicimage {
+    float: right;
+    width: 65%;
+    height: 100vh;  
+    overflow: hidden;
+}

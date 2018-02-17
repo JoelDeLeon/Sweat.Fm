@@ -1,0 +1,163 @@
+body,html {
+	
+     width:100%;
+    height:100%;
+
+    
+}
+
+body{
+  background: rgb(0,255,0);
+   background-attachment: fixed;
+    background-size: cover;
+}
+
+
+h2{
+   font-family: "Andale Mono", sans-serif;
+   font-size:12vw;
+    z-index: 1;
+}
+
+h3{
+   font-family: "Andale Mono", sans-serif;
+   font-size:3vh;
+    z-index: 0;
+    position:fixed;
+    right:-15vh;
+    top:18vh;
+    transform: rotate(-90deg);
+}
+
+
+
+#everything{
+    
+   height:80%;
+}
+
+#everythingelse{
+    margin-top: 70%;
+   height:100%;
+    width:100%;
+   
+}
+
+canvas{
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    z-index: 0;
+   
+
+}
+
+#navbar {
+	margin: auto;
+	height: 100%;
+	width:100%;
+	position: fixed;
+     display: inline-block;
+    
+  	}
+
+#navtable {
+  	 width: 100%;
+   	 color: #FCFCF2;
+   	 padding: 20px 10px;
+   	 font-size: 1.2em;
+   	 font-family: "Roboto", sans-serif;
+    
+   
+}
+    
+
+#navlogo {
+    display: inline-block;
+    width:100%;
+    margin-top:20vh;
+	
+}
+
+.fb-like{
+    display: inline-block;
+    
+}
+
+.thlogo {
+    width:130px;
+    
+}
+
+
+
+/*
+#column {
+	background-image: url("images/sweat_column.jpg");
+	background-attachment: fixed;
+	background-repeat: repeat-y;
+	background-position: left top;
+	background-size: 150px 600px;
+	border-left: 5px solid black;
+	width: 150px;
+	height: 100%;
+	color: white;
+	}
+*/
+
+
+
+.social {
+    text-align:right;
+    
+    
+}
+th{
+     font-weight:600;
+
+}
+
+th a:link {
+	display:block;
+	color: #8AADDB;
+	text-decoration: none;
+    
+}
+
+th a:visited {
+    color: #8AADDB;
+}
+
+th a:hover {
+    background-color: red;
+    text-decoration: line-through;
+    color: black;
+}  	
+
+th a:active {
+	 background-color: #6735FC;
+	 color: #8AADDB;
+}
+
+.notready {
+    color:#222c6c;
+}
+
+
+
+.fb-page {
+    
+    
+    
+}
+.sc-feed {
+  
+}
+.sc-embed {
+ 
+}
+
+
+/* #player {
+	padding: 25px
+	} moved to player.html */
