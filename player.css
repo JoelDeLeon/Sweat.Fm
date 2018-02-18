@@ -9,14 +9,18 @@
 
 
 .radioco-nowPlaying {
-    font-family: 'Roboto', sans-serif;
+/*    font-family: 'Roboto', sans-serif;*/
+       font-family: "Andale Mono", sans-serif;
     font-weight: 900;
-    font-size: 4vh;
+    font-variant-caps: all-small-caps;
+    font-size: 5vh;
     color: black;
-   position:fixed;
-    right:10px;
-    bottom:30px;
+   position:absolute;
+    right:0%;
+    bottom:3%;
     z-index: 2;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 /* BUTTON */
@@ -33,7 +37,7 @@
 
 .radioco-playButton{
     
-    font-size:20vw;
+    font-size:15vw;
     position:fixed;
     top:0px;
     left:2vw;
@@ -41,7 +45,7 @@
 }
 
 	.radioco-playButton:active{
-	  color:white;
+	  color:black;
 	}
 
 .radioco-playButton-playing{
