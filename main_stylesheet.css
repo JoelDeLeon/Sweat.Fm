@@ -29,15 +29,15 @@ h3{
    font-size:3vh;
     z-index: 0;
     position:fixed;
-    right:-15vh;
-    top:18vh;
+    right:-14vh;
+    top:28vh;
     transform: rotate(-90deg);
 }
 
 
 
 #everything{
-    100vh;
+   
 }
 
 #everythingelse{
