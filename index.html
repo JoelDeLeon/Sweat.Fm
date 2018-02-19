@@ -18,158 +18,78 @@
 </head>
     
 <body>
+    <div id="content">
 
-    
-    <div id="everything">
-        <div id="home" style="position: absolute; margin-top: -10%;"></div>
-        
         <nav role="navigation">
-            <div id="menuToggle">
-        <!--
-        A fake / hidden checkbox is used as click reciever,
-        so you can use the :checked selector on it.
-        -->
-                  <input type="checkbox" />
 
-        <!--
-        Some spans to act as a hamburger.
+                    <div id="menuToggle">
+                <!--
+                A fake / hidden checkbox is used as click reciever,
+                so you can use the :checked selector on it.
+                -->
+                        <input type="checkbox" />
 
-        They are acting like a real hamburger,
-        not that McDonalds stuff.
-        -->
-                <span></span>
-                <span></span>
-                <span></span>
+                <!--
+                Some spans to act as a hamburger.
 
-        <!--
-        Too bad the menu has to be inside of the button
-        but hey, it's pure CSS magic.
-        -->
-                <ul id="menu">
-                    <a href="#home"><li>HOME</li></a>
-                    <a href="#schedule"><li>SCHEDULE</li></a>
-                    <a href="#shows"><li>SHOWS</li></a>
-                    <a href="#podcast"><li>PODCAST</li></a>
-                    <a href="#contact"><li>CONTACT</li></a>
-                </ul>
+                They are acting like a real hamburger,
+                not that McDonalds stuff.
+                -->
+                        <span></span>
+                        <span></span>
+                        <span></span>
+
+                <!--
+                Too bad the menu has to be inside of the button
+                but hey, it's pure CSS magic.
+                -->
+                        <ul id="menu">
+                            <a id="home" onclick="slide(this)"><li>LISTEN</li></a>
+                            <a id="schedule" onclick="slide(this)"><li>SCHEDULE</li></a>
+                            <a id="programs" onclick="slide(this)"><li>PROGRAMS</li></a>
+                            <a id="guests" onclick="slide(this)"><li>GUESTS</li></a>
+                            <a id="contact" onclick="slide(this)"><li>CONTACT</li></a>
+                        </ul>
+                    </div>
+                </nav>
+
+        <div class="stage" id="stage_0">
+            
+            <div id="controller">
+                    <div class="radioplayer"
+                    data-src="https://streamer.radio.co/s3e3f66944/listen"
+                    data-playbutton="true"
+                    data-volumeslider="false"
+                    data-elapsedtime="false"
+                    data-nowplaying="true"
+                    data-showplayer="false"
+                    data-showartwork="false"
+                    data-volume="50"></div> 
+
+                <h2>sweat.fm</h2>
+
+                <h3>an online radio station</h3>
+
             </div>
-        </nav>
-        <div id="controller">
-                <div class="radioplayer"
-                data-src="https://streamer.radio.co/s3e3f66944/listen"
-                data-playbutton="true"
-                data-volumeslider="false"
-                data-elapsedtime="false"
-                data-nowplaying="true"
-                data-showplayer="false"
-                data-showartwork="false"
-                data-volume="50"></div> 
-
         </div>
-
-        <div id="fb-root"></div>
-        <h2>sweat.fm</h2>
-
-   <h3>an online radio station</h3>
-
-    <!--
-    <script>(function(d, s, id) {
-      var js, fjs = d.getElementsByTagName(s)[0];
-      if (d.getElementById(id)) return;
-      js = d.createElement(s); js.id = id;
-      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.11';
-      fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-    -->
-
-    <!--
-        <div id="navbar">
-            <table id="navtable">
-                <tr>
-                    <th><a href="#" onclick="window.open('player.html', 'Sweat.FM','toolbar=no,width=320,height=430');">Listen Live</a></th>
-                    <th><a href="schedule.html">Schedule</a></th>
-                    <th class="notready">Shows</th>
-
-
-
-                    <th class="notready">Podcasts</th>
-                    <th class="notready">Contact</th>
-                    <th class="social">
-
-                    </th>
-                </tr>
-            </table>
-        </div>
-
-    -->
-
-
-        <div id="logoContainer">
-
-    <!--    	<img id="navlogo" src="images/ocean-gutter2%20edit%201%20with%20url.png">-->
-
-        </div>
-    </div>
-    <div id="everythingelse">
-    
-   
-<!--
-    <div class="pageContent">
-	
-	
-	<div class="sc-feed" style="max-height:100%;overflow:auto;border:none">
-	     <iframe width="500" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/350187134&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=true&amp;show_teaser=true"></iframe>
-	</div>
-	<div class="fb-page" 
-	    data-href="https://www.facebook.com/SWEAT.FM/" 
-	    data-tabs="timeline" 
-	    data-width="500" data-height="600"
-	    data-small-header="true" 
-	    data-adapt-container-width="true" 
-	    data-hide-cover="true" 
-	    data-show-facepile="false">
-	    <blockquote cite="https://www.facebook.com/SWEAT.FM/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/SWEAT.FM/">SWEAT.FM</a></blockquote>
-	 
-	</div>
-	</div>
-
-    
-    </div>
-
-    
-    <div class="fb-like" 
-				    data-href="https://facebook.com/sweat.fm" 
-				    data-width="30" 
-				    data-layout="button_count" 
-				    data-action="like" 
-				    data-size="small" 
-				    data-show-faces="false" 
-				    data-share="true"></div>
--->
-        <div class="stage" id="schedule">
+        <div class="stage" id="stage_1">
             <h1>Schedule</h1>
-        
-
+            <div id="calendar"></div>
         </div>
-        <div class="stage" id="shows">
+        <div class="stage" id="stage_2">
             <h1>Shows</h1>
-        
-
         </div>
-        <div class="stage" id="podcast">
+        <div class="stage" id="stage_3">
             <h1>Podcast</h1>
-        
-
         </div>
-        <div class="stage" id="contact">
+        <div class="stage" id="stage_4">
             <h1>Contact</h1>
-        
-
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://public.radio.co/playerapi/jquery.radiocoplayer.min.js"></script>
 <script>
+    
 //initialise the plugin with the element
 $('.radioplayer').radiocoPlayer();
 

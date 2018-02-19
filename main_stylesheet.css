@@ -1,6 +1,5 @@
-body,html {
-	
-     width:100%;
+html {
+    width:100%;
     height:100%;
 
     
@@ -8,13 +7,15 @@ body,html {
 
 body{
   background-color: rgb(0,255,0);
-   background-attachment: fixed;
     background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
 }
 
-.changeColor {
-    background-color: black;
-    transition: 0.3s all;
+#content {
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -22,6 +23,10 @@ h2{
    font-family: "Andale Mono", sans-serif;
    font-size:12vw;
     z-index: 1;
+    position: relative;
+    left: 2em;
+    top: 0em;
+    z-index: -1;
 }
 
 h3{
@@ -29,27 +34,15 @@ h3{
    font-size:3vh;
     z-index: 0;
     position:fixed;
-    right:-14vh;
+
+    right:-15vh;
     top:28vh;
     transform: rotate(-90deg);
 }
 
 
-
-#everything{
-   
-}
-
-#everythingelse{
-   margin-top: 34%;
-}
-
-.stage {
-    height: 100vh;
-}
-
 canvas{
-    position:absolute;
+    position:fixed;
     top:0px;
     left:0px;
     z-index: 0;
@@ -204,7 +197,7 @@ a:hover
 {
   display: block;
   position: fixed;
-    margin-top: -8%;
+    margin-top: 2%;
   left: 93%;
   
   z-index: 1;
@@ -299,7 +292,7 @@ a:hover
   position: absolute;
   width: 1300%;
   margin: -150% 0 0 -800%;
-    opacity: .95;
+    opacity: .9;
   
   background: black;
   list-style-type: none;
@@ -325,4 +318,37 @@ a:hover
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+/****** STAGES ******/
+.stage {
+    height: 100vh;
+}
+
+#stage_0 {
+    display: block;
+}
+
+#stage_1 {
+    display: none;
+}
+
+#stage_1 div {
+    width:100%%;
+    height: 400px;
+    margin-left: 50px;
+    background-color: black;
+    z-index: 5;
+}
+
+#stage_2 {
+    display: none;
+}
+
+#stage_3 {
+    display: none;
+}
+
+#stage_4 {
+    display: none;
 }
