@@ -4,7 +4,11 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
+<<<<<<< HEAD
 		"uuidString": "73860FB0-65BB-4F46-9B81-D93A3E7B8D11"
+=======
+		"uuidString": "EB3ABB1C-521B-4B3D-A2FE-CE30877B2AC8"
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		}
 	],
 "creatorBuild": "26268",
@@ -14,124 +18,204 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/backgroundApp-min.js",
+=======
+		"oAP": "\/build\/backgroundApp-min.js",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
+<<<<<<< HEAD
+=======
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
+		"oF": 0
+		},
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 	"\/fonts\/andalemo.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/andalemo.ttf",
+=======
+		"oAP": "\/build\/fonts\/andalemo.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/FjallaOne-Regular.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/FjallaOne-Regular.ttf",
+=======
+		"oAP": "\/build\/fonts\/FjallaOne-Regular.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Black.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-Black.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-Black.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-BlackItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-BlackItalic.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-BlackItalic.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Bold.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-Bold.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-Bold.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-BoldItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-BoldItalic.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-BoldItalic.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Italic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-Italic.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-Italic.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Light.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-Light.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-Light.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-LightItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-LightItalic.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-LightItalic.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Medium.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-Medium.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-Medium.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-MediumItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-MediumItalic.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-MediumItalic.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Regular.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-Regular.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-Regular.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-Thin.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-Thin.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-Thin.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/fonts\/Roboto-ThinItalic.ttf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/fonts\/Roboto-ThinItalic.ttf",
+=======
+		"oAP": "\/build\/fonts\/Roboto-ThinItalic.ttf",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/images\/back.ai": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/back.ai",
+=======
+		"oAP": "\/build\/images\/back.ai",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/images\/back.png": {
 		"ft": 32768,
 		"iS": 66117,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/back.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+=======
+		"oAP": "\/build\/images\/back.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oT": 1,
 		"q": 100
 		},
@@ -139,18 +223,31 @@
 		"ft": 4194304,
 		"iS": 1393256,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/gif_2.gif",
 		"oF": 0,
 		"opt": 0
+=======
+		"oAP": "\/build\/images\/gif_2.gif",
+		"oF": 0,
+		"opt": 1
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		},
 	"\/images\/logoblue.png": {
 		"ft": 32768,
 		"iS": 30471,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/logoblue.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+=======
+		"oAP": "\/build\/images\/logoblue.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oT": 1,
 		"q": 100
 		},
@@ -158,10 +255,17 @@
 		"ft": 32768,
 		"iS": 79086,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/logowhite.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+=======
+		"oAP": "\/build\/images\/logowhite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oT": 1,
 		"q": 100
 		},
@@ -169,10 +273,17 @@
 		"ft": 32768,
 		"iS": 1070761,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/ocean-gutter2 edit 1 with url.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+=======
+		"oAP": "\/build\/images\/ocean-gutter2 edit 1 with url.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oT": 1,
 		"q": 100
 		},
@@ -180,53 +291,90 @@
 		"ft": 4194304,
 		"iS": 1999160,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/streambackground.gif",
 		"oF": 0,
 		"opt": 0
+=======
+		"oAP": "\/build\/images\/streambackground.gif",
+		"oF": 0,
+		"opt": 1
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		},
 	"\/images\/sweat_column.jpg": {
 		"ft": 16384,
 		"iS": 49024,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/sweat_column.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+=======
+		"oAP": "\/build\/images\/sweat_column.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"q": 100
 		},
 	"\/images\/sweat_cover_1_cropped_2.jpg": {
 		"ft": 16384,
 		"iS": 26284,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/sweat_cover_1_cropped_2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+=======
+		"oAP": "\/build\/images\/sweat_cover_1_cropped_2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"q": 100
 		},
 	"\/images\/sweat_logo.jpg": {
 		"ft": 16384,
 		"iS": 9470,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/sweat_logo.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+=======
+		"oAP": "\/build\/images\/sweat_logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"q": 100
 		},
 	"\/images\/tumblr_nkfsxrvh3P1s4fz4bo1_500.gif": {
 		"ft": 4194304,
 		"iS": 3061411,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/images\/tumblr_nkfsxrvh3P1s4fz4bo1_500.gif",
 		"oF": 0,
 		"opt": 0
+=======
+		"oAP": "\/build\/images\/tumblr_nkfsxrvh3P1s4fz4bo1_500.gif",
+		"oF": 0,
+		"opt": 1
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/index.html",
+=======
+		"oAP": "\/build\/index.html",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/main_stylesheet.css": {
@@ -235,7 +383,11 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/main_stylesheet-min.css",
+=======
+		"oAP": "\/build\/main_stylesheet-min.css",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0,
 		"oS": 3
 		},
@@ -244,7 +396,11 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/p5.dom-min.js",
+=======
+		"oAP": "\/build\/p5.dom-min.js",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -254,7 +410,11 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/p5-min.js",
+=======
+		"oAP": "\/build\/p5-min.js",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -264,7 +424,11 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/p5.min-min.js",
+=======
+		"oAP": "\/build\/p5.min-min.js",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -275,7 +439,11 @@
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/player-min.css",
+=======
+		"oAP": "\/build\/player-min.css",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0,
 		"oS": 3
 		},
@@ -283,7 +451,11 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/player.html",
+=======
+		"oAP": "\/build\/player.html",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0
 		},
 	"\/README.md": {
@@ -295,7 +467,11 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/README.html",
+=======
+		"oAP": "\/build\/README.html",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
@@ -308,6 +484,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/schedule.html",
 		"oF": 0
 		},
@@ -321,12 +498,21 @@
 		"sC": 0,
 		"tS": 0
 		},
+=======
+		"oAP": "\/build\/schedule.html",
+		"oF": 0
+		},
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 	"\/sphere.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
+<<<<<<< HEAD
 		"oAP": "\/sphere-min.js",
+=======
+		"oAP": "\/build\/sphere-min.js",
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
@@ -337,10 +523,18 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
+<<<<<<< HEAD
 	"creationDate": 540661593,
 	"displayValue": "Sweat.Fm",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_gray"
+=======
+	"creationDate": 540661381,
+	"displayValue": "Sweat.Fm",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "meme-facepalm",
+	"lastBuiltDate": 540661811
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -596,7 +790,11 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+<<<<<<< HEAD
 	"buildFolderActive": 0,
+=======
+	"buildFolderActive": 1,
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 	"buildFolderName": "build",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
@@ -2492,7 +2690,11 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
+<<<<<<< HEAD
 	"websiteRelativeRoot": ""
+=======
+	"websiteRelativeRoot": "\/build"
+>>>>>>> 1072334cf07d7790a263f440760d22340318fede
 	},
 "settingsFileVersion": "3"
 }

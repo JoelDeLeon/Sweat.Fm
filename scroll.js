@@ -2,7 +2,7 @@ var stage = document.getElementsByClassName('stage');
 var slideCount = 0;
 
 function slide(obj) {
-    var object1 = stage[slideCount];
+    var object1 = obj.id;
     if (obj.id === "home") {
         slideCount = 0;
     } else if (obj.id === "schedule") {
@@ -14,10 +14,9 @@ function slide(obj) {
     } else if (obj.id === "contact") {
         slideCount = 4;
     }
-}
-    var object2 = stage[slideCount];
-    transition(object1, object2);
 
+    var object2 = stage[slideCount];
+    toggleSlide();
 
 }
 
@@ -36,18 +35,6 @@ function toggleSlide() {
     
 }
 
-function transition(object1, object2) {
-    //transition part 1
-    object2.style.opacity = 1;
-    object2.style.display = "block";
-    
-    
-    toggleSlide();
-    
-    
-
-    
-}
 
 function init() {
     for (var i = 0; i < stage.length; i++) {
