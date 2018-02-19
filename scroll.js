@@ -1,5 +1,6 @@
 var stage = document.getElementsByClassName('stage');
 var slideCount = 0;
+var currentSlide = 0;
 
 function slide(obj) {
     var object1 = obj.id;
@@ -16,24 +17,42 @@ function slide(obj) {
     }
 
     var object2 = stage[slideCount];
-    toggleSlide();
+   
+  dimPresentSlide();
 
 }
 
 function toggleSlide() {
     var i, stageText;
     for (i = 0; i < stage.length; i++) {
-        stageText = "stage_" + i;
+        stageText = "#stage_" + i;
         if (i === slideCount) {
-                document.getElementById(stageText).style.display = "block";
+            
+            $(stageText).css("opacity",'0'); 
+            $(stageText).show();           
+            $(stageText).animate({ opacity: 1}, 350, function() { });
+            
+            
+             currentSlide = i;
 
         } else {
-            document.getElementById(stageText).style.display = "none";
+            $(stageText).hide();
         }
     }
 
-    
+   
 }
+
+function dimPresentSlide(){
+    var stageName = "#stage_" + currentSlide;
+    
+    $(stageName).animate({
+    opacity: 0,
+  }, 350, function() {
+    toggleSlide();
+  });
+}
+
 
 
 function init() {
