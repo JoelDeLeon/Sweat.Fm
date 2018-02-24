@@ -8,17 +8,13 @@
     <link href="fonts/andalemo.ttf" rel="stylesheet">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
     <link rel="stylesheet" href="player.css">
-  
-    <script src="p5.js"></script>
-    <script src="p5.dom.js"></script>
     
-    <script src="backgroundApp.js"></script>
-    <script src="scroll.js"></script>
+   
    
 </head>
     
 <body>
-    <div id="content">
+   
 
         <nav role="navigation">
 
@@ -27,7 +23,7 @@
                 A fake / hidden checkbox is used as click reciever,
                 so you can use the :checked selector on it.
                 -->
-                        <input type="checkbox" />
+                        <input id="input" type="checkbox"/>
 
                 <!--
                 Some spans to act as a hamburger.
@@ -44,19 +40,17 @@
                 but hey, it's pure CSS magic.
                 -->
                         <ul id="menu">
-                            <a id="home" onclick="slide(this)"><li>LISTEN</li></a>
-                            <a id="schedule" onclick="slide(this)"><li>SCHEDULE</li></a>
-                            <a id="programs" onclick="slide(this)"><li>PROGRAMS</li></a>
-                            <a id="guests" onclick="slide(this)"><li>GUESTS</li></a>
-                            <a id="contact" onclick="slide(this)"><li>CONTACT</li></a>
+                            <a id="home" href="index.html"><li>LISTEN</li></a>
+                            <a id="schedule" href="schedule.html"><li>SCHEDULE</li></a>
+                            <a id="programs" href="programs.html"><li>PROGRAMS</li></a>
+                            <a id="guests" href="guests.html"><li>GUESTS</li></a>
+                            <a id="contact" href="contact.html"><li>CONTACT</li></a>
                         </ul>
                     </div>
                 </nav>
-
-        <div class="stage" id="stage_0">
-            
-            <div id="controller">
-                    <div class="radioplayer"
+        
+        <div id="controller">
+                <div class="radioplayer"
                     data-src="https://streamer.radio.co/s3e3f66944/listen"
                     data-playbutton="true"
                     data-volumeslider="false"
@@ -64,30 +58,50 @@
                     data-nowplaying="true"
                     data-showplayer="false"
                     data-showartwork="false"
-                    data-volume="50"></div> 
+                    data-volume="50"></div> </div>
+        
+<div id="replaceable">
+        <div class="stage" id="stage_0">
+            
+            
 
                 <h2>sweat.fm</h2>
 
                 <h3>an online radio station</h3>
 
-            </div>
+            
         </div>
         <div class="stage" id="stage_1">
             <h1>Schedule</h1>
             <div id="calendar"></div>
-        </div>
+            
+            
+            
+            
+    </div>
         <div class="stage" id="stage_2">
-            <h1>Shows</h1>
+            <h1>Programs</h1>
         </div>
         <div class="stage" id="stage_3">
-            <h1>Podcast</h1>
+            <h1>Guests</h1>
         </div>
         <div class="stage" id="stage_4">
             <h1>Contact</h1>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+        
+       
+   
+    
+     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 	<script src="https://public.radio.co/playerapi/jquery.radiocoplayer.min.js"></script>
+  
+    <script src="p5.js"></script>
+    <script src="p5.dom.js"></script>
+    
+    <script src="backgroundApp.js"></script>
+    <script src="history.js"></script>
+    
 <script>
     
 //initialise the plugin with the element

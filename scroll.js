@@ -18,7 +18,7 @@ function slide(obj) {
 
     var object2 = stage[slideCount];
    
-  dimPresentSlide();
+ 
 
 }
 
@@ -30,7 +30,7 @@ function toggleSlide() {
             
             $(stageText).css("opacity",'0'); 
             $(stageText).show();           
-            $(stageText).animate({ opacity: 1}, 350, function() { });
+            $(stageText).animate({ opacity: 1}, 500, function() { });
             
             
              currentSlide = i;
@@ -43,16 +43,7 @@ function toggleSlide() {
    
 }
 
-function dimPresentSlide(){
-    var stageName = "#stage_" + currentSlide;
-    
-    $(stageName).animate({
-    opacity: 0,
-  }, 350, function() {
-    toggleSlide();
-  });
-}
-
+ 
 
 
 function init() {
