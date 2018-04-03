@@ -1,0 +1,72 @@
+
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+	[class*="fontawesome-"]:before {
+	  font-family: 'FontAwesome', sans-serif;
+	}
+
+
+
+
+.radioco-nowPlaying {
+/*    font-family: 'Roboto', sans-serif;*/
+    font-family: "Andale Mono", sans-serif;
+    font-weight: 900;
+    font-variant-caps: all-small-caps;
+    font-size: 5vh;
+    color: black;
+    position:fixed;
+    right:0%;
+    bottom:3%;
+    z-index: 2;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+/* BUTTON */
+
+	.radioco-playButton-playing:before{
+		font-family: 'FontAwesome', sans-serif;
+	  content: "\f04b";
+	}
+
+	.radioco-playButton-paused:before{
+		font-family: 'FontAwesome', sans-serif;
+	  content:"\f04c";
+	}
+
+.radioco-playButton{
+    
+    font-size:15vw;
+    position:fixed;
+    top:0px;
+    left:2vw;
+    z-index: 1;
+}
+
+	.radioco-playButton:active{
+	  color:black;
+	}
+
+.radioco-playButton-playing{
+    position: relative;
+    font-family: "controls";
+    
+    float: left;
+
+}
+
+.radioco-playButton-paused{
+    position: relative;
+    font-family: "controls";
+   
+    float: left;
+}
+
+/* ******* code ******* */
+#controller {
+    float: left;
+    width: 30%;
+    height: 70vw; 
+    padding: 2%;
+}

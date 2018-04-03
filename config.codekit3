@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26268",
 "files": {
+	"\/Anime.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/Anime.mp4",
+		"oF": 0
+		},
 	"\/backgroundApp.js": {
 		"ft": 64,
 		"ma": 0,
@@ -19,313 +26,11 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/build\/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/.gitignore",
+	"\/build": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/build",
 		"oF": 0
-		},
-	"\/build\/backgroundApp-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/build\/backgroundApp-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/build\/fonts\/andalemo.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/andalemo.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/FjallaOne-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/FjallaOne-Regular.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-Black.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-Black.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-BlackItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-BlackItalic.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-Bold.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-Bold.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-BoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-BoldItalic.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-Italic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-Italic.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-Light.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-Light.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-LightItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-LightItalic.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-Medium.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-Medium.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-MediumItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-MediumItalic.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-Regular.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-Regular.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-Thin.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-Thin.ttf",
-		"oF": 0
-		},
-	"\/build\/fonts\/Roboto-ThinItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/fonts\/Roboto-ThinItalic.ttf",
-		"oF": 0
-		},
-	"\/build\/images\/back.ai": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/back.ai",
-		"oF": 0
-		},
-	"\/build\/images\/back.png": {
-		"ft": 32768,
-		"iS": 39279,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/back.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/build\/images\/gif_2.gif": {
-		"ft": 4194304,
-		"iS": 1255141,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/gif_2.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/images\/logoblue.png": {
-		"ft": 32768,
-		"iS": 9280,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/logoblue.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/build\/images\/logowhite.png": {
-		"ft": 32768,
-		"iS": 26587,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/logowhite.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/build\/images\/ocean-gutter2 edit 1 with url.png": {
-		"ft": 32768,
-		"iS": 457642,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/ocean-gutter2 edit 1 with url.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/build\/images\/streambackground.gif": {
-		"ft": 4194304,
-		"iS": 1999160,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/streambackground.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/images\/sweat_column.jpg": {
-		"ft": 16384,
-		"iS": 49003,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/sweat_column.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/images\/sweat_cover_1_cropped_2.jpg": {
-		"ft": 16384,
-		"iS": 25083,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/sweat_cover_1_cropped_2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/images\/sweat_logo.jpg": {
-		"ft": 16384,
-		"iS": 8852,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/sweat_logo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/build\/images\/tumblr_nkfsxrvh3P1s4fz4bo1_500.gif": {
-		"ft": 4194304,
-		"iS": 3051432,
-		"oA": 0,
-		"oAP": "\/build\/build\/images\/tumblr_nkfsxrvh3P1s4fz4bo1_500.gif",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/build\/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/index.html",
-		"oF": 0
-		},
-	"\/build\/main_stylesheet-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/build\/main_stylesheet-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/build\/p5-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/build\/p5-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/build\/p5.dom-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/build\/p5.dom-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/build\/p5.min-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/build\/p5.min-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"\/build\/player-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/build\/player-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/build\/player.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/player.html",
-		"oF": 0
-		},
-	"\/build\/README.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/README.html",
-		"oF": 0
-		},
-	"\/build\/schedule.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/build\/build\/schedule.html",
-		"oF": 0
-		},
-	"\/build\/sphere-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/build\/build\/sphere-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
 		},
 	"\/contact.html": {
 		"cB": 0,
@@ -333,6 +38,79 @@
 		"oA": 0,
 		"oAP": "\/build\/contact.html",
 		"oF": 0
+		},
+	"\/ffmp3-testskin.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/ffmp3-testskin.xml",
+		"oF": 0
+		},
+	"\/ffmp3-testskin\/bg.gif": {
+		"ft": 4194304,
+		"iS": 2713,
+		"oA": 0,
+		"oAP": "\/build\/ffmp3-testskin\/bg.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/ffmp3-testskin\/holder.jpg": {
+		"ft": 16384,
+		"iS": 818,
+		"oA": 0,
+		"oAP": "\/build\/ffmp3-testskin\/holder.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/ffmp3-testskin\/play.gif": {
+		"ft": 4194304,
+		"iS": 1224,
+		"oA": 0,
+		"oAP": "\/build\/ffmp3-testskin\/play.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/ffmp3-testskin\/playclick.gif": {
+		"ft": 4194304,
+		"iS": 1204,
+		"oA": 0,
+		"oAP": "\/build\/ffmp3-testskin\/playclick.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/ffmp3-testskin\/statusplay.gif": {
+		"ft": 4194304,
+		"iS": 818,
+		"oA": 0,
+		"oAP": "\/build\/ffmp3-testskin\/statusplay.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/ffmp3-testskin\/statusstop.gif": {
+		"ft": 4194304,
+		"iS": 818,
+		"oA": 0,
+		"oAP": "\/build\/ffmp3-testskin\/statusstop.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/ffmp3-testskin\/stop.gif": {
+		"ft": 4194304,
+		"iS": 1171,
+		"oA": 0,
+		"oAP": "\/build\/ffmp3-testskin\/stop.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/ffmp3-testskin\/stopclick.gif": {
+		"ft": 4194304,
+		"iS": 1149,
+		"oA": 0,
+		"oAP": "\/build\/ffmp3-testskin\/stopclick.gif",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/fonts\/andalemo.ttf": {
 		"cB": 0,
@@ -554,6 +332,16 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/index.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/index-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -561,15 +349,32 @@
 		"oAP": "\/build\/index.html",
 		"oF": 0
 		},
-	"\/main_stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
+	"\/index4.html": {
+		"cB": 0,
+		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/build\/main_stylesheet-min.css",
+		"oAP": "\/build\/index4.html",
+		"oF": 0
+		},
+	"\/jquery.jplayer.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/jquery.jplayer-min.js",
 		"oF": 0,
-		"oS": 3
+		"sC": 3,
+		"tS": 0
+		},
+	"\/jquery.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/jquery-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"\/p5.dom.js": {
 		"ft": 64,
@@ -611,22 +416,32 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/player.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/build\/player-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/player.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/build\/player.html",
 		"oF": 0
+		},
+	"\/playera.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/playera-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/playerb.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/playerb-min.css",
+		"oF": 0,
+		"oS": 3
 		},
 	"\/programs.html": {
 		"cB": 0,
@@ -653,6 +468,16 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/schedule.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/schedule-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/schedule.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -677,6 +502,90 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"\/skin\/css\/jplayer.blue.monday.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/skin\/css\/jplayer.blue.monday-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/skin\/css\/jplayer.blue.monday.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/build\/skin\/css\/jplayer.blue.monday.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/skin\/image\/jplayer.blue.monday.jpg": {
+		"ft": 16384,
+		"iS": 23189,
+		"oA": 0,
+		"oAP": "\/build\/skin\/image\/jplayer.blue.monday.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/skin\/image\/jplayer.blue.monday.seeking.gif": {
+		"ft": 4194304,
+		"iS": 3284,
+		"oA": 0,
+		"oAP": "\/build\/skin\/image\/jplayer.blue.monday.seeking.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/skin\/image\/jplayer.blue.monday.video.play.png": {
+		"ft": 32768,
+		"iS": 17692,
+		"oA": 0,
+		"oAP": "\/build\/skin\/image\/jplayer.blue.monday.video.play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/skin\/mustache\/jplayer.blue.monday.audio.playlist.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/skin\/mustache\/jplayer.blue.monday.audio.playlist.html",
+		"oF": 0
+		},
+	"\/skin\/mustache\/jplayer.blue.monday.audio.single.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/skin\/mustache\/jplayer.blue.monday.audio.single.html",
+		"oF": 0
+		},
+	"\/skin\/mustache\/jplayer.blue.monday.audio.stream.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/skin\/mustache\/jplayer.blue.monday.audio.stream.html",
+		"oF": 0
+		},
+	"\/skin\/mustache\/jplayer.blue.monday.video.playlist.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/skin\/mustache\/jplayer.blue.monday.video.playlist.html",
+		"oF": 0
+		},
+	"\/skin\/mustache\/jplayer.blue.monday.video.single.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/skin\/mustache\/jplayer.blue.monday.video.single.html",
+		"oF": 0
+		},
 	"\/sphere.js": {
 		"ft": 64,
 		"ma": 0,
@@ -686,6 +595,13 @@
 		"oF": 0,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/StarrAndrews.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/StarrAndrews.mp4",
+		"oF": 0
 		},
 	"\/trash.html": {
 		"cB": 0,
@@ -704,7 +620,7 @@
 	"displayValue": "Sweat.Fm",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-facepalm",
-	"lastBuiltDate": 541123904
+	"lastBuiltDate": 544135278
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

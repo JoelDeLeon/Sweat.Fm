@@ -1,112 +1,147 @@
 
+var sketch =  function(p) {
 var yoff = 0.0;        // 2nd dimension of perlin noise
 
 var myFont;
 
 function haltCanvas(){
     
-    noLoop();
+    p.noLoop();
 }
 
-function preload() {
-  myFont = loadFont('fonts/Roboto-Black.ttf');
+function startCanvas(){
+    p.loop();
 }
 
-function setup() {
+p.preload = function(){
+  p.myFont = p.loadFont('fonts/Roboto-Black.ttf');
+}
+
+p.setup = function(){
  
-   img = loadImage("images/ocean-gutter2 edit 1 with url.png"); 
-  
-}
-
-function draw() {
-
-    clear();
-     createCanvas(windowWidth+100, windowHeight);
- 
-    
-
-  // We are going to draw a polygon out of the wave points
-    
-   fill(0);
-
-  noStroke();
-    
-  beginShape(); 
-  
-  var xoff = 0;       // Option #1: 2D Noise
-  // float xoff = yoff; // Option #2: 1D Noise
-  
-  // Iterate over horizontal pixels
-  for (var x = 0; x <= width; x += 10) {
-    // Calculate a y value according to noise, map to 
-    var y = map(noise(xoff, yoff), 0, 1, height*.1,height*.8); // Option #1: 2D Noise
-    // float y = map(noise(xoff), 0, 1, 200,300);    // Option #2: 1D Noise
-    
-    // Set the vertex
-    vertex(x, y); 
-    // Increment x dimension for noise
-    xoff += 0.05;
-  }
-  // increment y dimension for noise
-  yoff += 0.03;
-  vertex(width, height);
-  vertex(0, height);
-  endShape(CLOSE);    
-    
-noStroke();
-  // We are going to draw a polygon out of the wave points
-    
-   fill(0,255,0);
-    
-    
-  beginShape(); 
-  
-  var xoff = 0;       // Option #1: 2D Noise
-  // float xoff = yoff; // Option #2: 1D Noise
-  
-  // Iterate over horizontal pixels
-  for (var x = 0; x <= width; x += 10) {
-    // Calculate a y value according to noise, map to 
-    var y = map(noise(xoff, yoff), 0, 1, height*.2,height*.8); // Option #1: 2D Noise
-    // float y = map(noise(xoff), 0, 1, 200,300);    // Option #2: 1D Noise
-    
-    // Set the vertex
-    vertex(x, y); 
-    // Increment x dimension for noise
-    xoff += 0.05;
-  }
-  // increment y dimension for noise
-  yoff += 0.03;
-  vertex(width, height);
-  vertex(0, height);
-  endShape(CLOSE);
+   p.img = p.loadImage("images/ocean-gutter2 edit 1 with url.png"); 
    
+
+}
+
+p.draw = function(){
+
+    p.clear();
+     p.createCanvas(p.windowWidth+100, p.windowHeight+100);
+ 
+    
+
+  // We are going to draw a polygon out of the wave points
+    
+
+p.stroke(0,0,0); 
+ p.fill('rgba(0,255,0,1)');
+
+    p.strokeWeight(30);
+    
+    
+  p.beginShape(); 
+  
+  var xoff = 0;       // Option #1: 2D Noise
+  // float xoff = yoff; // Option #2: 1D Noise
+  
+  // Iterate over horizontal pixels
+  for (var x = 0; x <= p.width; x += 10) {
+    // Calculate a y value according to noise, map to 
+    var y = p.map(p.noise(xoff, yoff), 0, 1, -30,p.height*.65); // Option #1: 2D Noise
+    // float y = map(noise(xoff), 0, 1, 200,300);    // Option #2: 1D Noise
+    
+    // Set the vertex
+    p.vertex(x, y); 
+    // Increment x dimension for noise
+    xoff += 0.05;
+  }
+  // increment y dimension for noise
+    
+  if (p.width<700){
+        yoff += 0.018;
+    }
+    else if(p.width<900){
+        yoff += 0.025;
+    }
+    else if(p.width<1100){
+        yoff += 0.03;
+    }
+    else if(p.width<1250){
+        yoff += 0.034;
+    }
+    else{
+        yoff += 0.042;
+    }
+  
+  p.vertex(p.width, p.height);
+  p.vertex(0, p.height);
+  p.endShape(p.CLOSE);    
+    
+
+  // We are going to draw a polygon out of the wave points
+    
+  
+//p.fill('rgba(0,204,0,0.5)');    
+    p.stroke(0,255,0);
+    p.fill('rgba(0,0,0,1)');
+    p.strokeWeight(3);
+    
+    
+  p.beginShape(); 
+  
+  var xoff = 0;       // Option #1: 2D Noise
+  // float xoff = yoff; // Option #2: 1D Noise
+  
+  // Iterate over horizontal pixels
+  for (var x = 0; x <= p.width; x += 10) {
+    // Calculate a y value according to noise, map to 
+    var y = p.map(p.noise(xoff, yoff), 0, 1, 0,p.height*.7); // Option #1: 2D Noise
+    // float y = map(noise(xoff), 0, 1, 200,300);    // Option #2: 1D Noise
+    
+    // Set the vertex
+    p.vertex(x, y); 
+    // Increment x dimension for noise
+    xoff += 0.05;
+  }
+  // increment y dimension for noise
+ 
+  
+  p.vertex(p.width,p.height);
+  p.vertex(0, p.height);
+  p.endShape(p.CLOSE);
+   
+    
+//p.fill('rgba(0,255,0,0.5)');
+    
+    p.stroke(0,0,0);
+    p.fill('rgba(0,255,0,1)');
+    p.strokeWeight(10);
+    
+  p.beginShape(); 
+  
+  var xoff = 0;       // Option #1: 2D Noise
+  // float xoff = yoff; // Option #2: 1D Noise
+ 
      
-    fill(0,255,0);
-    stroke(0,0,0);
-    strokeWeight(3);
-    
-  beginShape(); 
-  
-  var xoff = 0;       // Option #1: 2D Noise
-  // float xoff = yoff; // Option #2: 1D Noise
-  
   // Iterate over horizontal pixels
-  for (var x = 0; x <= width; x += 10) {
+  for (var x = 0; x <= p.width; x += 10) {
     // Calculate a y value according to noise, map to 
-    var y = map(noise(xoff, yoff), 0, 1, height*.1,height); // Option #1: 2D Noise
+    var y = p.map(p.noise(xoff, yoff), 0, 1, -70,p.height*.9); // Option #1: 2D Noise
     // float y = map(noise(xoff), 0, 1, 200,300);    // Option #2: 1D Noise
     
     // Set the vertex
-    vertex(x, y); 
+    p.vertex(x, y); 
     // Increment x dimension for noise
     xoff += 0.05;
   }
   // increment y dimension for noise
-  yoff += 0.03;
-  vertex(width, height);
-  vertex(0, height);
-  endShape(CLOSE);  
+
+   
+  
+  p.vertex(p.width, p.height);
+  p.vertex(0, p.height);
+  p.endShape(p.CLOSE);  
 
  
 
@@ -117,3 +152,8 @@ noStroke();
     
    
 }
+};
+
+
+
+new p5(sketch, 'backgroundAppContainer');

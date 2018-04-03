@@ -3,20 +3,65 @@
 
 <head>
         <title>Sweat.FM</title>
-    <link rel="stylesheet" type="text/css" href="main_stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
-    <link href="fonts/andalemo.ttf" rel="stylesheet">
+     <link href="fonts/andalemo.ttf" rel="stylesheet">
+    <link href="fonts/Orbitron%20Black.ttf" rel="stylesheet">
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
-    <link rel="stylesheet" href="player.css">
+    <link rel="stylesheet" href="playera.css">
+    <link type="text/css" href="skin/css/jplayer.blue.monday.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.jplayer.js"></script>
+   
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js"></script>
+
+    
     
    
-   
+  
+    
+    
+    
+    
 </head>
     
 <body>
+      
+   
+    <div id="smallContainer">
+    <div id="myProgress">
+  <div id="myBar"></div><h3>sweat.fm</h3>
+</div>
+        </div>
+    
    
 
-        <nav role="navigation">
+    <div id="bigContainer">
+        
+<!--
+     <video playsinline autoplay  muted id="backgroundVideo">
+ 	<source type="video/mp4" src="Anime.mp4">
+ 	
+</video>
+        
+        <video playsinline autoplay  muted id="backgroundVideo2">
+ 	<source type="video/mp4">
+ 	
+</video>
+    
+-->
+<!--    <div id="videohue"></div>    -->
+        
+     <div id='backgroundAppContainer'></div>
+        
+    <script src="p5.js"></script>
+    <script src="p5.dom.js"></script>
+    <script src="backgroundApp.js"></script>
+    
+      
+        
+        <nav role="navigation"> 
 
                     <div id="menuToggle">
                 <!--
@@ -31,36 +76,68 @@
                 They are acting like a real hamburger,
                 not that McDonalds stuff.
                 -->
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <span class="burgerPatties"></span>
+                        <span class="burgerPatties"></span>
+                        <span class="burgerPatties"></span>
 
                 <!--
                 Too bad the menu has to be inside of the button
                 but hey, it's pure CSS magic.
                 -->
                         <ul id="menu">
-                            <a id="home" href="index.html"><li>LISTEN</li></a>
-                            <a id="schedule" href="schedule.html"><li>SCHEDULE</li></a>
-                            <a id="programs" href="programs.html"><li>PROGRAMS</li></a>
-                            <a id="guests" href="guests.html"><li>GUESTS</li></a>
-                            <a id="contact" href="contact.html"><li>CONTACT</li></a>
+                            <a class= "menulinks" id="home" href="index.html"><li>LISTEN</li></a>
+                            <a class= "menulinks" id="schedule" href="schedule.html"><li>SCHEDULE</li></a>
+                            <a class= "menulinks" id="programs" href="programs.html"><li>PROGRAMS</li></a>
+                            <a class= "menulinks" id="guests" href="guests.html"><li>GUESTS</li></a>
+                            <a class= "menulinks" id="contact" href="contact.html"><li>CONTACT</li></a>
                         </ul>
                     </div>
                 </nav>
+    
+
         
-        <div id="controller">
-                <div class="radioplayer"
-                    data-src="https://streamer.radio.co/s3e3f66944/listen"
-                    data-playbutton="true"
-                    data-volumeslider="false"
-                    data-elapsedtime="false"
-                    data-nowplaying="true"
-                    data-showplayer="false"
-                    data-showartwork="false"
-                    data-volume="50"></div> </div>
+   
+    
+    <div id="jquery_jplayer_1" class="jp-jplayer"></div>
+<div id="jp_container_1" class="jp-audio" role="application" aria-label="media player">
+  <div class="jp-type-single">
+    <div class="jp-gui jp-interface">
+      <div class="jp-volume-controls">
+        <button class="jp-mute" role="button" tabindex="0">mute</button>
+        <button class="jp-volume-max" role="button" tabindex="0">max volume</button>
+        <div class="jp-volume-bar">
+          <div class="jp-volume-bar-value"></div>
+        </div>
+      </div>
+      <div class="jp-controls-holder">
+        <div class="jp-controls">
+          <button class="jp-play" role="button" tabindex="0">play</button>
+          <button class="jp-stop" role="button" tabindex="0">stop</button>
+        </div>
+        <div class="jp-progress">
+          <div class="jp-seek-bar">
+            <div class="jp-play-bar"></div>
+          </div>
+        </div>
+        <div class="jp-current-time" role="timer" aria-label="time">&nbsp;</div>
+        <div class="jp-duration" role="timer" aria-label="duration">&nbsp;</div>
+        <div class="jp-toggles">
+          <button class="jp-repeat" role="button" tabindex="0">repeat</button>
+        </div>
+      </div>
+    </div>
+    <div class="jp-details">
+      <div class="jp-title" aria-label="title">&nbsp;</div>
+    </div>
+    <div class="jp-no-solution">
+      <span>Update Required</span>
+      To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>.
+    </div>
+  </div>
+</div>
+    
         
-<div id="replaceable">
+         <div id="replaceable">
         <div class="stage" id="stage_0">
             
             
@@ -71,43 +148,492 @@
 
             
         </div>
-        <div class="stage" id="stage_1">
-            <h1>Schedule</h1>
-            <div id="calendar"></div>
-            
-            
-            
-            
-    </div>
-        <div class="stage" id="stage_2">
-            <h1>Programs</h1>
-        </div>
-        <div class="stage" id="stage_3">
-            <h1>Guests</h1>
-        </div>
-        <div class="stage" id="stage_4">
-            <h1>Contact</h1>
-        </div>
+        
+             
+            <stopHistory></stopHistory> 
+             
     </div>
         
+        
+        
+         <div class="playpause" id="playButton" onclick="playPause()">
+       <h1>▶</h1>
+    </div>
+
+ <div class="playpause" id="pauseButton" onclick="playPause()">
+       <h1>▌▌</h1>
+    </div>
+    
+    
+    <div id="songTitle">
+        <h3 id="songTitletext">Hello World</h3>
+        
+        
+        
+        
+        </div>
+        
+</div>
+        
+        
+        
+    <script type="text/javascript">
+    
        
-   
-    
-     <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script src="https://public.radio.co/playerapi/jquery.radiocoplayer.min.js"></script>
   
-    <script src="p5.js"></script>
-    <script src="p5.dom.js"></script>
+        
+    var stream = {
+		
+		mp3: "https://admin.sweat.fm/radio/8000/radio.mp3?1522403475863"
+	};    
+        
+     $.wait = function(ms) {
+    var defer = $.Deferred();
+    setTimeout(function() { defer.resolve(); }, ms);
+    return defer;
+};
+        
+    $(window).on("load", function(){
+       
+//        $("smallContainer").css("display","inherit");
+//        $("bigContainer").css("display", "none");
+        
+        
+        $("#bigContainer").hide();
+        $("#smallContainer").show();
+
+        
+        
+        function move() {
+    var elem = document.getElementById("myBar"); 
+    var width = 1;
+    var id = setInterval(frame, 15);
+    function frame() {
+        if (width >= 100) {
+            clearInterval(id);
+            $.wait(400).then(function(){
+            $("#smallContainer").fadeOut(600);
+            });
+            
+        } else {
+            width++; 
+            elem.style.width = width + '%'; 
+        }
+    }
+}
+	   move();
+        
+        $.wait(2750).then(function() {$('#bigContainer').fadeIn(600);});
     
-    <script src="backgroundApp.js"></script>
-    <script src="history.js"></script>
+       
+       
+        
+         
+        
+    });
+    
+    var typeCounter = 1;    
+        
+    $(document).ready(function(){
+    
+        
+        
+         
+      $("#pauseButton").hide();
+     $("#playButton").show(); 
+        
+         
+
+	$("#jquery_jplayer_1").jPlayer({
+		ready: function (event) {
+			
+            ready = true;
+			$(this).jPlayer("setMedia", stream);
+            
+		},
+		pause: function() {
+			$(this).jPlayer("clearMedia");
+		},
+		error: function(event) {
+			if(ready && event.jPlayer.error.type === $.jPlayer.error.URL_NOT_SET) {
+				// Setup the media stream again and play it.
+				$(this).jPlayer("setMedia", stream).jPlayer("play");
+			}
+		},
+		swfPath: "../dist/jplayer",
+		supplied: "mp3",
+		preload: "none",
+		wmode: "window",
+		useStateClassSkin: true,
+		autoBlur: false,
+		keyEnabled: true,
+        autohide: true
+	}); 
+    
+        var currentSongTitle = "";
+        var title;
+        var artist;
+        var typeCounter = 1;
+    
+    $.getJSON("https://admin.sweat.fm/api/nowplaying/sweatfm", function(row){
+             
+            var title = row.now_playing.song.title;
+            var artist = row.now_playing.song.artist;
+            assignSongTitleVariables(title, title, artist);
+             
+         });
+        
+    
+    function assignSongTitleVariables(cST, t, a){
+        currentSongTitle = cST;
+        title = t;
+        artist = a;
+    }  
+        
+    function assignSongTitleVariables2(t, a){
+    
+        title = t;
+        artist = a;
+    }  
+        
+        
+        
+        
+    setInterval(function(){
+           
+          $.getJSON("https://admin.sweat.fm/api/nowplaying/sweatfm", function(row){
+             
+            var title = row.now_playing.song.title;
+            var artist = row.now_playing.song.artist;
+            assignSongTitleVariables2(title, artist);
+             
+         });
+        
+//        console.log(currentSongTitle);
+//     console.log(title.indexOf(currentSongTitle));
+         
+        if (typeCounter == 1){
+            
+                        $('#songTitletext').typed({
+        typeSpeed: 300,
+        backSpeed: 300,
+        strings: [title],
+//        callback:  monitorSongChange
+    });
+            
+            
+        typeCounter += 1;
+            
+        }   
+//        else if(typeCounter == 2){
+//            
+//        
+//        $('#songTitletext').removeData('typed');   
+//            
+//            $('#songTitletext').typed({
+//        typeSpeed: 80,
+//        backSpeed: 80,
+//        strings: [title],
+////        callback:  monitorSongChange
+//    });
+//            
+//            
+//        typeCounter += 1;
+//            
+//        }
+        else if(title.indexOf(currentSongTitle) == -1){
+                
+         $('#songTitletext').removeData('typed');
+            
+                $('#songTitletext').typed({
+        typeSpeed: 80,
+        backSpeed: 80,
+        strings: [title],
+//        callback:  monitorSongChange
+    });
+            
+            currentSongTitle = title;
+            
+                console.log("not equal");
+//                
+            }else{
+                console.log("equal");
+            }
+//           loadNowPlaying(); 
+            
+        },3000);    
+        
+        
+    function loadNowPlaying(){
+        $.getJSON("https://admin.sweat.fm/api/nowplaying/sweatfm", function(row){
+            
+//            $("#songTitle").html("<h3>" + row.now_playing.song.title + "</h3>");
+            
+            
+            
+            if (title.indexOf($("#songTitletext").text()) == -1 && typeCounter == 1){
+                 
+                 
+                
+            }
+            
+//            if(title !== $("#songTitletext").text()){
+//                
+//               
+//                console.log("hey");
+//               
+//                
+//            }else{
+//                
+//            }
+            
+            
+            
+//            console.log(row.now_playing.song.title);
+//            console.log(row.now_playing.song.artist);
+            
+        });
+    }
+    
+        
+        
+        
+      
+        
+
+    
+//     var vidLinks = ["VIDS/1.mp4", "VIDS/2.mp4", "VIDS/3.mp4", "VIDS/4.mp4", "VIDS/5.mp4", "VIDS/6.mp4", "VIDS/7.mp4", "VIDS/8.mp4", "VIDS/9.mp4", "VIDS/10.mp4", "VIDS/11.mp4", "VIDS/12.mp4", "VIDS/13.mp4"]; 
+//    
+//    var pastRandomVidIndex = vidLinks.indexOf($("source").attr("src"));    
+//        //console.log($("source").attr("src"));
+//        
+//    function getnewRandomInt(max) {
+//        
+//        var a = Math.floor(Math.random() * Math.floor(max));
+//        console.log(a + "" + pastRandomVidIndex );
+//        
+//        if ( a == pastRandomVidIndex){
+//            return getnewRandomInt(max);
+//        }
+//        else{
+//            pastRandomVidIndex = a;
+//            return a;
+//        }
+//  
+//}
+//    
+//    var currentPlayingVideoElement =  $("#backgroundVideo");
+//    
+//    currentPlayingVideoElement.on('playing', function(event){
+//        
+//        setInterval(function(){
+//            
+//          
+//              
+//        if(currentPlayingVideoElement[0].currentTime > currentPlayingVideoElement[0].duration-10){
+//            //   vid.pause();
+//                 var vidSelector = getnewRandomInt(13);
+//                 console.log("video is playing" + currentPlayingVideoElement[0].currentTime + " " + currentPlayingVideoElement[0].duration );
+//                if(currentPlayingVideoElement.is($("#backgroundVideo"))){
+//                    
+//                    
+////                    
+//                    $("#backgroundVideo2").attr("src", vidLinks[vidSelector]);
+//                     $("#backgroundVideo").attr("z-index", -1);
+//                     $("#backgroundVideo2").attr("z-index", -2);
+//                  
+//            
+//               $("#backgroundVideo").animate({opacity: 0}, {duration: 4000, queue: false });
+//              
+//                
+//             //   vid2.pause();
+//               $("#backgroundVideo2").animate({opacity: 1},{duration: 4000, queue: false });
+//                    currentPlayingVideoElement = $("#backgroundVideo2");
+//                    
+//                }else{
+//                    
+////                    
+//                    $("#backgroundVideo").attr("src", vidLinks[vidSelector]);
+//                    $("#backgroundVideo").attr("z-index", -2);
+//                     $("#backgroundVideo2").attr("z-index", -1);
+//                  
+//            
+//               $("#backgroundVideo2").animate({opacity: 0}, {duration: 4000, queue: false });
+//              
+//                
+//             //   vid2.pause();
+//               $("#backgroundVideo").animate({opacity: 1},{duration: 4000, queue: false });
+//                    currentPlayingVideoElement = $("#backgroundVideo");
+//                }
+//            
+////            $("#backgroundVideo2") .attr("src", vidLinks[vidSelector]);
+////            
+////               $("#backgroundVideo").animate({opacity: 0}, {duration: 4000, queue: false });
+////              
+////                
+////             //   vid2.pause();
+////               $("#backgroundVideo2").animate({opacity: 1},{duration: 4000, queue: false });
+//              //  vid2.play();
+//      } 
+//        
+//        
+//        },3000); 
+//        
+//        
+//        
+////        timeoutID = window.setInterval(function() {
+////           
+////            if(vid.currentTime > vid.duration-21){
+////            //   vid.pause();
+////                
+////                vid.animate({opacity: 0}, {duration: 400, queue: false });
+////               var vidSelector = getnewRandomInt(13);
+////                vid2.src = vidLinks[vidSelector];
+////             //   vid2.pause();
+////                $("backgroundVideo2").animate({opacity: 1},{duration: 600, queue: false });
+////              //  vid2.play();
+////      } 
+////            }
+////        , 3000);
+//    }).on('ended', function(event){
+//        console.log("video ended");
+////        window.clearTimeout(timeoutID);
+//    });
+    
+    });
+
+
+   
+        
+       
+        
+    
+    
+//        vid.onended = function() {
+//        var vidSelector = getnewRandomInt(13);
+//        pastRandomVidIndex = vidSelector;
+//        vid.animate({opacity: 0}, 400 , function(){
+//            
+//            vid2.src = vidLinks[vidSelector];
+//            vid2.animate({opacity: 1},600);
+//        
+//        });};
+            
+            
+       
+    
+            
+//        $("#playButton").animate({color: "black"},{ duration: 400, queue: false, function(){$(this).animate({color: "rgb(0,255,0)"},300);}});
+//        $(".burgerPatties").animate({backgroundColor: "black"},{ duration: 300, queue: false, function(){$(this).animate({backgroundColor: "rgb(0,255,0)"},300);} });
+            
+    
+            
+            
+
+        
+
+  </script>
+        
+    
+    
+
+
+
+
+    
+    
+    
+        
+
+
+       
+  
+    
+    
+    
+    
+    
     
 <script>
     
-//initialise the plugin with the element
-$('.radioplayer').radiocoPlayer();
+var hamburgerCounter = -1;
+    //1 is green and -1 is black
+    
+function toggleHamburgerColor(){
+    if(hamburgerCounter == 1){
+        $(".burgerPatties").animate({backgroundColor: 'black'},{ duration: 50, queue: false });
+        hamburgerCounter *= -1;
+    }
+    else{
+        $(".burgerPatties").animate({backgroundColor: 'rgb(0,255,0)'},{ duration: 50, queue: false });
+        hamburgerCounter *= -1;
+    }
+}    
+    
+var playing = false;
+
+    
+function playPause(){
+	
+
+    
+    if(playing){
+    
+       $("#jquery_jplayer_1").jPlayer("clearMedia");
+     playing = false;
+//        $("canvas").hide();
+        $("#pauseButton").hide();
+        $("#playButton").show();
+        
+//        $("#videohue").css({backgroundColor: 'rgba(0,255,0,1)'});
+//         $("#menu").animate({backgroundColor: 'black'},{ duration: 100, queue: false });
+//         $(".menulinks").animate({color: 'rgb(0,255,0)'},{ duration: 100, queue: false });
+//        $("h2").animate({color: 'rgb(0,0,0)'},{ duration: 600, queue: false });
+//        $("h3").animate({color: 'rgb(0,0,0)'},{ duration: 600, queue: false });
+       
+//        toggleHamburgerColor();   
+        
+        
+          
+    }
+    else{
+   
+        $("#jquery_jplayer_1").jPlayer("setMedia", stream).jPlayer("play");
+   
+      
+    playing = true;
+//        $("canvas").show();
+        $("#playButton").hide();
+     $("#pauseButton").show(); 
+        
+//        $("#videohue").css({backgroundColor: 'rgba(0,0,0,0)'});
+//        
+//        $("#menu").animate({backgroundColor: 'rgb(0,255,0)'},{ duration: 100, queue: false });
+//        $(".menulinks").animate({color: 'black'},{ duration: 100, queue: false });
+//       $("h2").animate({color: 'rgb(0,255,0)'},{ duration: 600, queue: false });
+//        $("h3").animate({color: 'rgb(0,255,0)'},{ duration: 600, queue: false });
+//        toggleHamburgerColor();
+        
+        
+        
+    }
+   
+}
+
+//    $("#input").click(function(){
+//        
+//        toggleHamburgerColor();
+//    });
+
+   
 
 </script>
+    
+        
+    <script src="history.js"></script>
+    
+    
+    
 	
  
         </body>

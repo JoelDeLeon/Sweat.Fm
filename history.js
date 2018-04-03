@@ -38,7 +38,7 @@ function addClicker(link) {
 function swapPhoto(href) {
   var req = new XMLHttpRequest();
     
-  req.open("GET", "http://127.0.0.1:60029/" + href.split("/").pop(),
+  req.open("GET", "http://127.0.0.1:52053/" + href.split("/").pop(),
            false);
     
   req.send(null);
@@ -47,17 +47,25 @@ function swapPhoto(href) {
     
     if (req.status == 200) {
         
-         
+//        $("#pauseButton").hide();
+//     $("#playButton").show(); 
+        
+        
    
         $("#input").prop('checked', false);
         
-    $("#replaceable").html(req.responseText.substring(req.responseText.indexOf('replaceable')+13, req.responseText.indexOf('<script')));
+        
+        
+    $("#replaceable").html(req.responseText.substring(req.responseText.indexOf('replaceable')+13, req.responseText.indexOf("<stopHistory")));
      
-        console.log();
+      
+//        console.log(req.responseText.substring(req.responseText.indexOf('replaceable')+13, req.responseText.indexOf('<div data-brackets-id='170'')));
+//         console.log(req.responseText.indexOf('replaceable')+13 + " " + req.responseText.indexOf('<div class="playpause"'));
    
        
         
     setupHistoryClicks();
+        
     return true;
   }
   return false;
